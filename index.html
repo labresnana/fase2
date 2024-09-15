@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="logo.png" width="200px">
+    </header>
+
+    <!--Barra de navegaçao-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbarnav justify-content-center mb-0 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="fase2.html">
+                        <i class="bi bi-house"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white"href="#produtos">
+                        <i class="bi bi-bag"></i> Produtos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#servicos">
+                        <i class="bi bi-heart"></i> Serviços
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cadastro.html">
+                        <i class="bi bi-person"></i> Cadastro
+                    </a>
+                </li>
+                </ul>
+                <form class="d-flex ms-5" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Pesquise</button>
+                  </form>
+                </div>
+        </div>
+    </nav>
+
+    <!-- Carousel de imagens -->
+    <section id="carousel" class="container my-5">
+        <div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagem1.png" class="d-block w-100" alt="Produto 1">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagem2.png" class="d-block w-100" alt="Produto 2">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselImagens" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselImagens" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+     <h3 class="text-center"><strong>Nossos Produtos!</strong></h3>
+     <section id="carouselProdutos" class="container my-5">
+        <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <!-- Grupo de Produtos 1 -->
+                 <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp1.jpg" alt="pp1 1" class="product-image">
+                                <h4 class="product-title">Ração Golden Special para Cães Adultos Sabor Frango e Carne</h4>
+                                <p>Indicado para cães adultos. Blend de proteínas, máxima satisfação para o paladar!</p>
+                                <p class="product-price">R$ 149,99</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp2.jpg" alt="pp2" class="product-image">
+                                <h4 class="product-title">Ração Úmida GranPlus Gourmet Sachê para Cães Adultos</h4>
+                                <p>A melhor ração úmida para cães. Sabor Ovelha - 100g</p>
+                                <p class="product-price">R$ 3,19</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp3.jpg" alt="pp3" class="product-image">
+                                <h4 class="product-title">Refeição Natural Zee.Dog Kitchen para Cães Adultos</h4>
+                                <p>Indicado para cães.</p>
+                                <p class="product-price">R$ 26,99</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Grupo de Produtos 2 -->
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp4.jpg" alt="pp4" class="product-image">
+                                <h4 class="product-title">Tapete Higiênico Zee.Pad Preto para Cães Zee.Dog</h4>
+                                <p>Os cachorrinhos adoram ter um lugar só para eles fazerem as próprias necessidades. Eles precisam de um cantinho para chamar de seu, em que se sintam à vontade sem sujar outras partes da casa. .</p>
+                                <p class="product-price">R$ 117,99</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp5.jpg" alt="pp5" class="product-image">
+                                <h4 class="product-title">Ração Golden para Gatos Adultos Castrados Sabor Salmão</h4>
+                                <p>Após ser castrado, seu pet precisa de cuidados especiais quanto à alimentação.</p>
+                                <p class="product-price">R$ 30,59</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <img src="pp6.jpg" alt="pp6" class="product-image">
+                                <h4 class="product-title">Cama Spike Europa Cinza para Cães e Gatos</h4>
+                                <p>Indicado para cães e gatos.</p>
+                                <p class="product-price">R$ 139,99</p>
+                                <a href="#" class="btn btn-light">Comprar</a>
+                            </div>
+                        </div>
+
+            </div>
+            
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Controles do carrossel -->
+        <a class="carousel-control-prev" href="#carouselProdutos" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselProdutos" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </section>
+
+
+        <!-- Serviços -->
+    <section id="servicos" class="container my-5">
+        <h3 class="text-center"><strong>Nossos Serviços!</strong></h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="petbanho.png" class="card-img-top" alt="Banho">
+                    <div class="card-body">
+                        <h5 class="card-title">Banho</h5>
+                        <p class="card-text">Todo cuidado e carinho com o seu pet em um banho refrescante. Preço: R$ 99,90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pettosa.png" class="card-img-top" alt="Tosa">
+                    <div class="card-body">
+                        <h5 class="card-title">Tosa</h5>
+                        <p class="card-text">Deixe seu pet ainda mais fofo com nossa tosa especial. Preço: R$ 75,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 PetShop. Todos os direitos reservados.</p>
+        <p>Contato: petshop@exemplo.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
